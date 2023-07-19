@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'inter-bold';
+    src: url(./fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'inter-extra-bold';
+    src: url(./fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'inter-regular';
+    src: url(./fonts/static/Inter-Regular.ttf);
+}
+h1{
+    font-family: "inter-extra-bold";
+    font-weight: 800; 
+
+}
+h2, h3, h4{
+    font-family: "inter-bold";
+}
+.new-titre{
+    color: hsl(35, 77%, 62%);
+}
+img{
+    height: auto;
+}
+body{
+    background: hsl(36, 100%, 99%);
+    font-family: "inter-regular";
+    font-weight: 400;
+}
+body p{
+    font-size: 15px;
+}
+@media only screen and (max-width:1440px) and (min-width: 380px){
+    .main{
+        max-width: 990px;
+        margin-left:auto !important;
+        margin-right: auto !important;
+        padding: 20px;
+    }
+
+    .menu li{
+        float: left;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .container{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+    }
+    .left-area{
+        padding-right: 20px;
+        width: 64%;
+    }
+    .right-area{
+        padding: 10px;
+        background: hsl(240, 100%, 5%);
+        color: white;
+        width: 36%;
+    }
+    .img-web3{
+        width: 100%;
+        position: relative;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+    }
+    .w50{
+        width: 50% !important;
+        padding: 10px;
+    }
+    .w75{
+        width: 75% !important;
+        padding: 10px;
+    }
+    .w25{
+        width: 25% !important;
+        padding: 10px;
+    }
+    .w100{
+        width: 100% !important;
+        padding: 10px;
+    }
+    .w33{
+        width: 33%;
+        padding: 10px;
+    }
+    .news{
+        display: flex;
+        flex-direction: row;
+    }
+    #icon-menu, #icon-menu-close{
+        display: none;
+    }
+    .news1 img, .news2 img, .news3 img{
+        display: none;
+    }
+    .dflex{
+        display: flex;
+        flex-direction: row;
+    }
+    .news1{
+        background: url(./images/image-retro-pcs.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .news2{
+        background: url(./images/image-top-laptops.jpg);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .news3{
+        background: url(./images/image-gaming-growth.jpg);
+        background-size: cover;
+        background-position: center;
+    
+    }
+
+}
+/*.news img{
+    max-width: 100%;
+    height: auto !important;
+}*/
+div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.news1 img, .news2 img, .news3 img{
+    width: 100%;
+}
+
+.readmore{
+    background: hsl(5, 85%, 63%);
+    color: white;
+    letter-spacing:2px;
+    font-weight: bold;
+}
+.btn{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    
+}
+.news h2{
+   color: hsl(233, 8%, 79%);
+   padding: 0 !important;
+}
+.news p{
+    color:hsl(236, 13%, 42%);
+}
+.left-area p{
+    color: hsl(236, 13%, 42%);
+}
+.right-area{
+    padding: 10px;
+    background: hsl(240, 100%, 5%);
+    color: white;
+}
+.img-web3{
+    max-width: 100% !important;
+    position: relative;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav .menu{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:hsl(236, 13%, 42%);
+}
+
